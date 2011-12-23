@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8" />
+	<title>Start Page</title>
+	<link rel="stylesheet" type="text/css" media="screen"  href="static/css/style.css" />
+	<link rel="shortcut icon" href="static/img/favicon.ico" />
+	<script type="text/javascript" language="javascript">
+	        window.onload = function() {
+            document.getElementById("google").focus();
+			
+    </script>
+	
+    <script>
+		var temp;
+		function openTab(temp)
+		{
+			chrome.tabs.create({url: temp});
+		}
+		 function closeThisTab(info,tab)
+		{
+			chrome.tabs.remove(tab.id);
+			
+	</script>
+</head>
+
+<body>
+	<div id="Root">
+		<div style="float: right"><a href="https://mail.google.com">Gmail</a>&nbsp; <a href="https://www.google.com/reader">Reader</a>&nbsp; <a href="https://www.google.com/analytics">Analytics</a>&nbsp; <a href="http://blog.heylink.info">Blog</a>&nbsp;&nbsp;</div>
+	  
+		<strong style="color: #999"><img src="static/img/icon.png" align="absmiddle" style="margin-top: -4px;" /> Start Page</strong>
+		<div class="sep"></div>
+ 
+	  
+	<div align="center">
+		<form method="get" action="http://www.google.com/search?sourceid=navclient&gfns=1&q=">
+			<input type="hidden" name="forid" value="1" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="hidden" name="hl" value="en-US" />
+			<input type="hidden" name="sourceid" value="navclient" />
+			<input type="hidden" name="gfns" value="1" />
+			<input type="text" name="q" id="google" class="sl" />
+			<input type="submit" value="Google Search" class="super normal button" />
+		</form>
+	</div>
+	<div class="sep"></div>
+		
+	<div class="column">
+		<div class="column_title">MOST VISITED</div>
+			<ul class="nav">
+				<li><a href="http://www.google.com/">Google</a></li>
+				<li><a href="http://v2ex.com">V2EX</a></li>
+				<li><a href="http://www.github.com/">GitHub</a></li>
+				<li><a href="http://www.hayaoki-seikatsu.com">早起き生活</a></li>
+				<li><a href="http://doit.im/">Doit.im</a></li>
+			</ul>
+	</div>
+  
+	<div class="column">
+		<div class="column_title">MINIBLOG</div>
+			<ul class="nav">
+				<li><a href="https://www.twitter.com">Twitter</a></li>
+				<li><a href="http://t.sina.com.cn">新浪微博</a></li>
+				<li><a href="http://t.digu.com">嘀咕</a></li>
+				<li></li>
+		    </ul>
+	</div>
+  
+	<div class="column">
+		<div class="column_title">BLOG</div>
+			<ul class="nav">
+				<li><a href="http://cn.engadget.com/">Engadget(CN</a></li>
+				<li><a href="http://www.engadget.com/">Engadget</a></li>
+				<li><a href="http://www.google.org.cn/">谷奥</a></li>
+				<li><a href="http://www.ifanr.com/">iFanr</a></li>
+				<li><a href="http://jandan.net/">煎蛋</a></li>
+				<li><a href="http://www.matrix67.com">Matrix67</a></li>
+				<li><a href="http://solidot.org/">Solidot</a></li>
+				<li><a href="http://www.appinn.com/">小众软件</a></li>
+				<li></li>
+		    </ul>
+	</div>
+  
+	<div class="column">
+	    <div class="column_title">FRIENDS</div>
+			<ul class="nav">
+				<li><a href="http://www.fanfe.org">Zeray Fan</a></li>
+				<li><a href="http://blog.heylink.info">Link</a></li>
+				<li></li>
+			</ul>
+	</div>
+  
+	<div class="column">
+	    <div class="column_title">MAIL</div>
+			<ul class="nav">
+				<li><a href="http://www.gmail.com">Gmail</a></li>
+				<li><a href="http://www.126.com">网易</a></li>
+				<li><a href="http://mail.qq.com">QQ邮箱</a></li>
+				<li><a href="http://mail.aol.com">AOL Mail</a></li>
+				<li></li>
+	      </ul>
+	</div>
+  
+	<div class="column">
+	    <div class="column_title">MUSIC &amp; VIDEO</div>
+			<ul class="nav">
+				<li><a href="http://last.fm">Last.fm</a></li>
+				<li><a href="http://www.xiami.com">虾米</a></li>
+				<li><a href="http://www.youku.com">优酷</a></li>
+				<li><a href="https://www.youtube.com">Youtube</a></li>
+				<li></li>
+        </ul>
+	</div>
+  
+	<div class="column">
+	    <div class="column_title">SOCIAL NETWORK</div>
+			<ul class="nav">
+				<li><a href="http://www.douban.com">豆瓣</a></li>
+				<li><a href="http://www.facebook.com">Facebook</a></li>
+				<li><a href="https://plus.google.com">G+</a></li>
+				<li></li>
+        </ul>
+	</div>
+  
+    <div class="clear"></div>
+    <div class="sep"></div>
+
+	<div class="column">
+		<div class="column_title">OLIVIDA</div>
+			<ul class="nav">
+				<li><img src="static/img/star.png" align="absmiddle" style="padding-bottom: 3px;" />&nbsp;<a href="http://www.olivida.com/">OLIVIDA</a></li>
+				<li><img src="static/img/retweet.png" align="absmiddle" style="padding-bottom: 3px;" />&nbsp;<a href="http://www.define.io/">Define.io</a></li>
+				<li><img src="static/img/star.png" align="absmiddle" style="padding-bottom: 3px;" />&nbsp;<a href="http://picky.olivida.com/">Project Picky</a></li>
+				<li><img src="static/img/star.png" align="absmiddle" style="padding-bottom: 3px;" />&nbsp;<a href="http://www.v2ex.com/">V2EX</a></li>
+				<li><img src="static/img/star.png" align="absmiddle" style="padding-bottom: 3px;" />&nbsp;<a href="http://www.ibizhi.me/">iBizhi</a></li>
+                <li><img src="static/img/heart.png" align="absmiddle" style="padding-bottom: 3px;" />&nbsp;<a href="http://o.olivida.com/">O</a></li>
+				<li><img src="static/img/app.png" align="absmiddle" style="padding-bottom: 3px;" />&nbsp;<a href="http://www.olivida.com/bc2stats">BC2Stats</a></li>
+				<li><img src="static/img/app.png" align="absmiddle" style="padding-bottom: 3px;" />&nbsp;<a href="http://www.olivida.com/gomoku">Gomoku</a></li>
+			</ul>
+	</div>
+	
+	<div class="column">
+		<div class="column_title">TOOLS</div>
+			<ul class="nav">
+				<li><a href="http://translate.google.com">Google Translate</a></li>
+				<li><a href="http://www.google.com/webmasters/tools">Webmaster Tools</a></li>
+				<li><a href="http://imm.io">Imm.io</a></li>
+				<li><a href="http://getcloudapp.com">CloudApp</a></li>
+				<li><a href="http://www.evernote.com/Home.action">EverNote</a></li>
+				<li><a href="http://www.speedtest.net">Speedtest</a></li>
+				<li><a href="http://imgur.com">Imgur</a></li>
+		    </ul>
+	</div>
+	
+	<div class="column">
+	    <div class="column_title">GOOGLE</div>
+			<ul class="nav">
+				<li> <a href="http://www.appspot.com">App Engine</a></li>
+				<li> <a href="http://www.google.com/calendar">Calendar</a></li>
+				<li> <a href="http://docs.google.com/">Docs</a></li>
+				<li> <a href="http://groups.google.com/?hl=en">Groups</a></li>
+				<li> <a href="http://www.google.com/voice">Voice</a></li>
+				<li> <a href="http://ditu.google.com">Maps</a></li>
+				<li> <a href="http://goo.gl/F3lT">Latitude</a></li>
+			</ul>
+    </div>
+	
+	<div class="column">
+	    <div class="column_title">CHROME</div>
+			<ul class="nav">
+				<li><a href="#" onClick="openTab('chrome://downloads/');closeThisTab;">Downloads</a></li>
+				<li><a href="#" onClick="openTab('chrome://extensions/')">Extensions</a></li>
+				<li><a href="#" onClick="openTab('chrome://history/')">History</a></li>
+				<li><a href="#" onClick="openTab('chrome://bookmarks/')">Bookmarks</a></li>
+				<li><a href="#" onClick="openTab('chrome://labs/')">Labs</a></li>
+				<li><a href="#" onClick="openTab('chrome://plugins/')">Plugins</a></li>
+            </ul>
+    </div>
+	
+	<div class="column">
+	    <div class="column_title">PHOTO</div>
+			<ul class="nav">
+				<li><a href="http://www.flickr.com">Flickr</a></li>
+				<li><a href="http://favefavefave.com">Fave♥</a></li>
+				<li><a href="http://www.tumblr.com">Tumblr</a></li>
+				<li></li>
+			</ul>
+    </div>
+	
+    <div class="clear"></div>
+    <div class="clear"></div>
+    </div>
+	
+	<div id="Bottom">&copy; 2010 OLIVIDA - making things easier<br/>Server for <a href="http://about.me/links">Link</a></div>
+	<!--<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-11940834-3");
+	pageTracker._setDomainName("none");
+	pageTracker._setAllowLinker(true);
+	pageTracker._trackPageview();
+	} catch(err) {}</script>-->
+</body>
+</html>

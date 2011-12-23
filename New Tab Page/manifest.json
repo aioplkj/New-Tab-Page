@@ -1,0 +1,14 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "description": "New Tab Page by Link",
+   "icons": {
+    "48": "icon_48.jpg"
+   },
+   "key": "MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAOE3xHuMp7bqTWhcE8SFjTPe7bA28FhpB1Ph27/c2ExJsZ+a3rrT8i8zAB4T23Rj1kjy/tspFYM+EJ41/qiv8baYZKvy2EWlvTWICwDMeWpCLbTeb9nqlh4cHZLULSIJ7HKsUhXxHZlEqSLGSiGu+ye9jxRuD4ADQJGKEbykhD1XAgMBAAECgYEA27BCgSIbF1pGV945iiGcM1TqFlIA8LzC4RgX+3e5pfDcywuO6D+GpnPhUXWdRFN+23ntEGtrCLKqEyooVvQJmnc+BI+SSEdoc/QFBZcFC9H/TkIuWKgC2nS5FCBMhOEISKDqXU8xYC4jejfrWdllaO+mSjQmZ1ktvbcN8uvEEAECQQD2tLuNa7eZbiBe11oqfSWNUyQZbu3TzVDA5BVyDL+4RkG4kP58Jbae36NzrCb65O9RRw0KRJ9QsRWJ5fLAqipXAkEA6bPM2Ii/R9xphqWg8jmjWEHRD1c/fEKwflqclLV1hLGnSdrrdxaDqaYYmgDNrH9KDfhpcT7FJe8VmCKmg/ClAQJAQiHwpNhbPyXmR4YzBXDGwDupUagK2NwQ6aQ6m3gPbLZop7E2htEVQ0Fv73IWgOsdvAvv0vDSRC80NuMNT9hNwQJBAMk7D8TXotUOvjK5hWdtJ/CD467w8nJdvjlebntB8GoMyr42ahAF6+L1aTOaQ38nr61t2+UuJnXuc0qnc3giiwECQQCJedSOQkQ7pPhiB0m+5/osVROBMVYW4bI9xuybKr3x9aLTPBkVSA02j/pIBTTw5SajVK8gW3/A5dZva76lQ7/t",
+   "name": "New Tab Page",
+   "permissions": [ "tabs", "http://about.me/links" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1"
+}
